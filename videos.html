@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Happy Birthday</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+        <title>
+            Happy Birthday Pranav
+        </title>
+    </head>
+    <body>
+        <h1>Happy Birthday Pranav </h1>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">&#128149;Home&#128149;</a></li>
+                    <li><a href="videos.html">&#128149;Chutyapa&#128149;</a></li>
+                    
+                  </ul> 
+            </nav>
+        </div>
+
+        <!--<input type="text"name="greet" id="name"/> -->
+
+        <div class="greet">
+            <h2 id="alp"> Hii i am pranav</h2>
+        </div>
+        <br>
+        <p> Before Clicking This Buttton See The Line Very Carefully</p>
+        <br>
+
+        <div class="container">
+            <div id="cent">
+                <button onclick="greet()">Change</button>
+                <br> <br>
+                <button onclick="gree()">No Change</button>
+            </div>
+
+            <br>
+           
+        </div>
+
+        <!--inserting vide -->
+
+        <div id="cente" class="cente">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UTsFHpkCrXQ" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HmNwDHs6i1M" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+
+        <br>
+        <footer>Copyright © 2022 All Rights Reserved       by Blue Wave'S
+        </footer>
+        <br>
+    </body>
+    <script type="text/javascript">
+        function greet(){
+            var name = document.getElementById('alp').value;
+            var string = "And i am chutiya "//+ name;
+            //document.getElementsByClassName('greet')[0].innerHTML = string;
+            document.getElementById('alp').innerHTML= string;
+
+        }
+        function gree(){
+            var name = document.getElementById('alp').value;
+            var string = "Hii i am pranav "//+ name;
+            //document.getElementsByClassName('greet')[0].innerHTML = string;
+            document.getElementById('alp').innerHTML= string;
+
+        }
+    </script>
+</html>
